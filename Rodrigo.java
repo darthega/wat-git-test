@@ -10,6 +10,5 @@ public class Rodrigo {
 	public void yell() {
 		System.out.println("Pero Rodrigo, hermano !!");
 	}
-	}
 
 }
