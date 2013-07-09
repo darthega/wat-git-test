@@ -10,9 +10,13 @@ public class Camilo{
 		return this.name;
 	}
 
+	public void disturbingOthers()
+	{
+		this.name = "Diego, the Pacemaker";
+	}
+
 	public String theBetterReBetter(){
 
 return this.name + " Camilo";
-
 	}
 }
