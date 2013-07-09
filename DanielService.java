@@ -6,7 +6,8 @@ public class DanielService {
 	private int lenght;
 
 	public void doSomething(){
-		lenght = 200;
-	}
-	
+            length = 200;
+	    System.out.println("Doing something");
+	}	
+
 }
