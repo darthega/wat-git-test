@@ -10,6 +10,7 @@ public class DanielService {
 	public void doSomething() {
 		while (isDanielPerfect) {
 			System.out.println(thePerfectMethod());
+			slaveMustDie(new Slave("Diego"));
 			isDanielPerfect = true;
 		}
 	}
@@ -17,5 +18,8 @@ public class DanielService {
 	public void thePerfectMethod() {
 		return "Daniel is perfect!!! Hail Lord Daniel!!!"
 	}
-	
+
+	public boolean slaveMustDie (Slave slave) {
+		return true;
+	}
 }
