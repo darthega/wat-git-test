@@ -2,10 +2,11 @@
 //package com.boszdigital.wat-git-test;
 import wat-git-test.Camilo;
 
-//@Service
+@Service
 public class DanielService {
 
 	private boolean isDanielPerfect = true;
+	private booean isMariaHere = false;
 
 	public void doSomething() {
 		while (isDanielPerfect) {
