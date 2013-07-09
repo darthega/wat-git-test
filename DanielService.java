@@ -4,7 +4,7 @@
 public class DanielService {
 
 	private int lenght;
-
+	private String name="";
 	public void doSomething(){
             length = 200;
 	    System.out.println("Doing something");
