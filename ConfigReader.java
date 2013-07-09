@@ -4,8 +4,8 @@ public abstract class ConfigReader {
 
 	public abstract String readConfig();
 	
-	public static ConfigReader getConfigReader() {
+	public static void printConfigReader() {
 		
-		return new PropertyConfigReader();
+		System.out.println("ConfigReader");
 	}
 }
