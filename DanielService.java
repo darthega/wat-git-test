@@ -7,6 +7,7 @@ public class DanielService {
 	private int lenght;
 	private String name="";
 	private Camilo camilo;
+	private String hello;
 
 	public void doSomething(){
             length = 200;
