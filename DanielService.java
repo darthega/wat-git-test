@@ -10,8 +10,12 @@ public class DanielService {
 	private String hello;
 
 	public void doSomething(){
-            length = 200;
-	    System.out.println("Doing something");
+        System.out.println("Doing something");
+	}	
+	
+	public void doSomething2(){
+            length = 1 * 2 * 3;
+	    System.out.println("Doing something2");
 	}
 
 	public void myConflictingMethod()
