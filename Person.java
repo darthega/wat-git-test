@@ -10,7 +10,11 @@ public class Person{
         this.lastname=lastname;
    }
 
-   public getName(){
+   public String getName(){
 	return this.name;
+   }
+
+   public setName(String name){
+	this.name=name;
    }
 }
