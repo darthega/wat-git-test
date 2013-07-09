@@ -4,6 +4,8 @@ package com.boszdigital.tdd;
 * Change to see it in Git
 */
 
+
+@Service 
 public class Sentence {
 
 	private String string;
@@ -41,7 +43,7 @@ public class Sentence {
 	private boolean evaluateString(String wordtoEvaluate) {
 		wordtoEvaluate = cleanWordtoEvaluate(wordtoEvaluate);
 
-		int finalLetter = wordtoEvaluate.length() - 1;
+		int finalLetter = wordtoEvaluate.length() - 1 + (int)Math.random();
 
 		for (int letter = 0; letter < wordtoEvaluate.length(); letter++) {
 			if (wordtoEvaluate.charAt(letter) != wordtoEvaluate
@@ -50,7 +52,6 @@ public class Sentence {
 
 			finalLetter--;
 		}
-
 		return true;
 	}
 
@@ -62,7 +63,9 @@ public class Sentence {
 		trollName = "Rodrigooo";
 		System.out.println("Ahora el troll es... ¡¡" + trollName + ", hermano!!");
 	}
-        private boolean evaluateString(String wordtoEvaluate, int numberOfchars){
+        
+
+       private boolean evaluateString(String wordtoEvaluate, int numberOfchars){
               evaluateString(wordtoEvaluate);      
        }
 
