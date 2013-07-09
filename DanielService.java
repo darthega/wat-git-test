@@ -8,6 +8,7 @@ public class DanielService {
 	private String name="";
 	private Camilo camilo;
 	private String hello;
+	public String Diego;
 
 	public void doSomething(){
 		String doText = "Do someting text.";
@@ -28,6 +29,12 @@ public class DanielService {
 	{
 		this.camilo = "I don't know";
 		System.out.println("Camilo: are you a man? " + this.camilo);
+	}
+
+	public String DiegoIsALittleMan(){
+		int i=50;
+		i--;
+		return i+"mm" ; 
 	}
 
 }
