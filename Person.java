@@ -9,4 +9,8 @@ public class Person{
         this.name=name;
         this.lastname=lastname;
    }
+
+   public getName(){
+	return this.name;
+   }
 }

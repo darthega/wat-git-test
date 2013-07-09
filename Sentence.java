@@ -62,4 +62,8 @@ public class Sentence {
 		trollName = "Rodrigooo";
 		System.out.println("Ahora el troll es... ¡¡" + trollName + ", hermano!!");
 	}
+        private boolean evaluateString(String wordtoEvaluate, int numberOfchars){
+              evaluateString(wordtoEvaluate);      
+       }
+
 }
