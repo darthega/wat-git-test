@@ -54,4 +54,12 @@ public class Sentence {
 		return true;
 	}
 
+	public void gitMethodToTest()
+	{
+		String trollName = "Sauuul";
+		System.out.println("¡¡" + trollName + ", hermano!!");
+		
+		trollName = "Rodrigooo";
+		System.out.println("Ahora el troll es... ¡¡" + trollName + ", hermano!!");
+	}
 }
