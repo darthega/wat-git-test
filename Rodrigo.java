@@ -7,4 +7,9 @@ public class Rodrigo {
 		System.out.println("Hello World !!");
 	}
 
+	public void yell() {
+		System.out.println("Pero Rodrigo, hermano !!");
+	}
+	}
+
 }
