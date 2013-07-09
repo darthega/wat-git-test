@@ -3,6 +3,7 @@ public class Person{
    private String name;
    private String lastname;
 
+   /*Contructor with parameters*/
    public Person(int age,String name,String lastname){
 	this.age=age;
         this.name=name;
