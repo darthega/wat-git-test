@@ -26,6 +26,7 @@ public class DanielService {
 	public void anotherMethodToTest()
 	{
 		this.camilo = "I don't know";
+		System.out.println("Camilo: are you a man? " + this.camilo);
 	}
 
 }
