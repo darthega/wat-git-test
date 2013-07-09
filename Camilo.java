@@ -14,4 +14,9 @@ public class Camilo{
 	{
 		this.name = "Diego, the Pacemaker";
 	}
+
+	public String theBetterReBetter(){
+
+return this.name + " Camilo";
+	}
 }

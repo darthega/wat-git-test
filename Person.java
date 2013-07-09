@@ -12,4 +12,20 @@ public class Person{
 
    public Person()
    {}
+
+   public String getName(){
+	return this.name;
+   }
+
+   public int getAge(){
+    return this.age;
+   }
+
+public setName(String name){
+	this.name=name;
+   }
+
+   public String getLastName(){
+    return this.lastname;
+   }
 }
