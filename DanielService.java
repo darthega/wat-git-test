@@ -17,6 +17,11 @@ public class DanielService {
 	public void myConflictingMethod()
 	{
 		System.out.println("Generating conflicts in Git, with this class");
-	}	
+	}
+
+	public void anotherMethodToTest()
+	{
+		this.camilo = "I don't know";
+	}
 
 }
