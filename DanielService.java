@@ -10,6 +10,7 @@ public class DanielService {
 	private String hello;
 
 	public void doSomething(){
+		String doText = "Do someting text.";
         System.out.println("Doing something");
 	}	
 	
