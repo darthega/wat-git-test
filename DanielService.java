@@ -2,6 +2,7 @@
 //package com.boszdigital.wat-git-test;
 import wat-git-test.Camilo;
 
+//@Service
 public class DanielService {
 
 	private boolean isDanielPerfect = true;
