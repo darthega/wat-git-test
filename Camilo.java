@@ -9,4 +9,10 @@ public class Camilo{
 	public String theBetter(){
 		return this.name;
 	}
+
+	public String theBetterReBetter(){
+
+return this.name + " Camilo";
+
+	}
 }
