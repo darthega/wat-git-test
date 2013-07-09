@@ -1,11 +1,12 @@
 public class Camilo{
-	
+	private int number;
+	private String name; 
 
-		public static void main (String args[]){
-			
+	public int howManyPeople(){
+		return this.number;
+	} 
 
-			
-		}
-
-
+	public String theBetter(){
+		return this.name;
+	}
 }
