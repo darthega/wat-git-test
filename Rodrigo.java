@@ -1,6 +1,6 @@
 public class Rodrigo {
 
-	public final static int COUNT=12;
+	public final static int COUNT=121;
 
 	public void  sayHi(){
 	
