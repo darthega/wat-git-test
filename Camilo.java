@@ -9,4 +9,9 @@ public class Camilo{
 	public String theBetter(){
 		return this.name;
 	}
+
+	public void disturbingOthers()
+	{
+		this.name = "Diego, the Pacemaker";
+	}
 }
