@@ -8,4 +8,8 @@ public abstract class ConfigReader {
 		
 		System.out.println("ConfigReader");
 	}
+
+	public static void doSomething(){
+		System.out.println("This is a test");
+	}
 }
